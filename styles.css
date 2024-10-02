@@ -45,3 +45,12 @@ body {
     font-size: 24px; /* Tamaño de fuente más grande */
     text-align: center; /* Centra el texto del título */
 }
+
+audio {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
