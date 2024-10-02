@@ -31,7 +31,6 @@ body {
     font-size: 16px;
     box-shadow: 0 0 10px rgba(199, 21, 133, 0.5); /* Sombra suave para un toque romántico */
     font-family: 'Cursive', sans-serif; /* Fuente cursiva para un estilo romántico */
-    white-space: pre-wrap; /* Para mantener los saltos de línea */
     display: flex;
     justify-content: center;
     align-items: center;
