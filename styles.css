@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el fondo cubra al menos la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #e6e6fa, #dda0dd); /* Degradado en tonos lila */
+    background-attachment: fixed; /* Fija el fondo para evitar que se divida en capas */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px; /* Mantiene el valor del top */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 50px; /* Mantiene la separación del borde inferior */
+}
+
+#lyrics {
+    padding: 20px;
+    border: 5px solid #c71585; /* Color que combina con el lila */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(199, 21, 133, 0.5); /* Sombra suave para un toque romántico */
+    font-family: 'Cursive', sans-serif; /* Fuente cursiva para un estilo romántico */
+    white-space: pre-wrap; /* Para mantener los saltos de línea */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para alinear el contenido verticalmente */
+    max-width: 100%; /* Para que no exceda el ancho del contenedor */
+    height: auto; /* Ajusta la altura al contenido */
+    margin-bottom: 50px; /* Mantiene la separación del borde inferior */
+}
+
+.titulo {
+    color: limegreen; /* Color verde lima */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    text-align: center; /* Centra el texto del título */
+}
